@@ -137,9 +137,25 @@ a {
     padding-right: 180px;
 }
 .como_hacemos {
-    background-color: rgba(175, 105, 36, 0.2);
+    background-color: rgba(175, 105, 36, 0.3);
+    padding-top: 110px;
+    font-weight: 100;
     text-align: center;
-    padding: 50px 80px 40px;
+    letter-spacing: 2px;
+    border-spacing: 10px;
+}
+.como_hacemos p {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    font-size: 30px;
+}
+.como_hacemos_contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 60px;
+    padding-top: 80px;
+    padding-bottom: 120px;
 }
 .como_hacemos_titulo {
     font-size: 50px;
@@ -148,11 +164,7 @@ a {
 .como_hacemos_explicacion {
     font-size: 20px;
 }
-.como_hacemos_separar {
-    display: flex;
-    justify-content: space-evenly;
-}
-.como_hacemos_explicacion_uno {
+.como_hacemos_aplicacion {
     background-color: aliceblue;
     padding: 20px;
     width: 500px;
@@ -160,62 +172,57 @@ a {
     border-radius: 10px;
     box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.5);
 }
-.como_hacemos_explicacion_uno:hover {
-    transform: rotateZ(3deg);
-}
-.como_hacemos_explicacion_uno img {
+.como_hacemos_aplicacion img {
     width: 100%;
-    margin-bottom: 20px;
-}
-.como_hacemos_explicacion_dos {
-    background-color: aliceblue;
-    padding: 20px;
-    width: 500px;
-    height: 400px;
     border-radius: 10px;
-    box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.5);
 }
-.como_hacemos_explicacion_dos:hover {
+.como_hacemos_aplicacion:hover {
     transform: rotateZ(3deg);
 }
-.como_hacemos_explicacion_dos img {
-    width: 100%;
-    margin-bottom: 20px;
-}
-.como_hacemos_separar_part2 {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 30px 30px;
-}
-.como_hacemos_explicacion_tres {
-    background-color: aliceblue;
-    padding: 20px;
-    width: 500px;
-    height: 450px;
-    border-radius: 10px;
-    box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.5);
-}
-.como_hacemos_explicacion_tres:hover {
-    transform: rotateZ(3deg);
-}
-.como_hacemos_explicacion_tres img {
-    width: 100%;
-    margin-bottom: 20px;
-}
-.como_hacemos_explicacion_cuatro {
+.como_hacemos_explicacion {
     background-color: aliceblue;
     padding: 20px;
     width: 500px;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.5);
 }
-.como_hacemos_explicacion_cuatro:hover {
-    transform: rotateZ(3deg);
-}
-.como_hacemos_explicacion_cuatro img {
+.como_hacemos_explicacion img {
     width: 100%;
     margin-bottom: 20px;
+}
+.como_hacemos_explicacion:hover {
+    transform: rotateZ(3deg);
+}
+.como_hacemos_servicio {
+    background-color: aliceblue;
+    padding: 20px;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.5);
+}
+.como_hacemos_servicio img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.como_hacemos_servicio:hover {
+    transform: rotateZ(3deg);
+}
+.como_hacemos_sin_horarios {
+    background-color: aliceblue;
+    padding: 20px;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.5);
+}
+.como_hacemos_sin_horarios img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.como_hacemos_sin_horarios:hover {
+    transform: rotateZ(3deg);
 }
 .contactanos {
     background-color: rgb(146, 153, 159, 0.2);
@@ -444,7 +451,38 @@ a {
         padding: 40px 40px;
 
     }
-
+    .como_hacemos_aplicacion {
+        background-color: aliceblue;
+        padding: 20px;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.5);
+    }
+    .como_hacemos_explicacion {
+        background-color: aliceblue;
+        padding: 20px;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.5);
+    }
+    .como_hacemos_servicio {
+        background-color: aliceblue;
+        padding: 20px;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.5);
+    }
+    .como_hacemos_sin_horarios {
+        background-color: aliceblue;
+        padding: 20px;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.5);
+    }
 }
 @media (max-width: 425px) {
     .como_hacemos_titulo {
@@ -628,6 +666,14 @@ a {
 }
 @media (max-width: 1024px) {
     .quienes_somos_contenedor_secundario {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        row-gap: 60px;
+        padding-top: 80px;
+        padding-bottom: 120px;
+    }
+    .como_hacemos_contenedor {
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
