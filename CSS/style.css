@@ -239,13 +239,20 @@ a {
     border-bottom-right-radius: 40px;
     padding: 30px;
     font-size: 25px;
+    margin-bottom: 80px;
+}
+.table_principal {
+    padding-top: 25px;
+    background-image: linear-gradient(45deg, rgb(119, 74, 29, .7), rgba(175, 105, 36, 0.3));
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 }
 .table_principal_linea {
     border: none;
 }
 .table_principal_subtitulo {
     padding-left: 5px;
-    font-size: 20px;
+    font-size: 30px;
 }
 #text_align_start {
     text-align: start;
@@ -267,12 +274,6 @@ a {
     border-radius: 4px;
     margin-bottom: 18px;
     border: 1px solid black;
-}
-#table_principal_box {
-    background-color: rgba(175, 105, 36, 0.2);
-    width: 100%;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    margin-top: 10px;
 }
 .controls_chekbox {
     font-size: 20px;
