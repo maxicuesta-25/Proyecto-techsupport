@@ -1,0 +1,69 @@
+.footer {
+    background: rgba(33, 24, 13, 0.75);
+    color: aliceblue;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer_contacto {
+    display: inline;
+    justify-content: start;
+}
+.footer_contacto h4 {
+    margin: 15px;
+    font-size: 25px;
+}
+.footer_contacto ul {
+    margin-left: 10px;
+    font-size: 15px;
+}
+.footer_contacto h5 {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer_empresas {
+    display: grid;
+    justify-items: start;
+    margin-right: auto;
+}
+.footer_empresas h4 {
+    margin: 15px;
+    font-size: 25px;
+}
+.footer_empresas img {
+    margin-left: 50%;
+    width: 200px;
+    height: 65px;
+}
+.footer_redes {
+    display: grid;
+    justify-content: end;
+    justify-items: center;
+}
+.footer_redes h4 {
+    margin: 15px;
+    font-size: 25px;
+}
+.derechos_reservados {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;    
+    background: rgba(33, 24, 13, 0.85);
+    color: white;
+}
+.burger_button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #164150cc;
+    display: none;
+    line-height: 35px;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    right: 10px;
+    top: 10px;
+    box-shadow: 1px 1px 2px #00000080;
+}

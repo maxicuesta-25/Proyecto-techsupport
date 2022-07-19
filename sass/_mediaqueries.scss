@@ -1,0 +1,224 @@
+@media (max-width: 1160px )  {
+    .logo_techsupports {
+        display: none;
+    }
+    .logo_techsupports_central_tamaño {
+        width: 300px;
+        height: 330px;
+    }
+
+}
+@media (max-width: 700px) {
+    .footer_empresas img {
+        margin-left: 50%;
+        width: 100px;
+        height: 30px;
+    }
+    .footer_contacto h4 {
+        margin: 10px;
+        font-size: 15px;
+    }
+    .footer_contacto ul {
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .footer_contacto h5 {
+        font-size: 12px;
+        font-style: italic;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .footer_empresas h4 {
+        margin: 10px;
+        font-size: 15px;  
+    }   
+    .footer_empresas  {
+        justify-content: start;
+    }
+    .footer_redes h4 {
+        margin: 10px;
+        font-size: 15px;
+    }
+
+}
+@media (max-width: 645px) {
+    .fixed-background-navegacion ul {
+        flex-direction: column;
+        display: flex;
+        align-items: flex-start;
+        left: 0px;
+    }
+    .fixed-background-navegacion {
+        left: 0;
+    }
+    .logo_techsupports_central_tamaño {
+        width: 250px;
+        height: 300px;   
+    }
+    .logo_techsupports_central {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        top: 40vh;
+        left: 50%;
+        right: 50%;
+    }
+    .bienvenidos {
+        background-color: rgba(175, 105, 36, 0.3);
+        text-align: center;
+        font-size: 30px;
+        padding: 60px;
+        margin-top: -10px;
+    }
+    .bienvenidos_descripcion {
+        background-color: #ebeff2cc;
+        text-align: start;
+        left: 0;
+        font-size: 20px;
+        padding: 40px 40px;
+
+    }
+    .como_hacemos_aplicacion {
+        background-color: #f0f8ff;
+        padding: 20px;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.5);
+    }
+    .como_hacemos_explicacion {
+        background-color: #f0f8ff;
+        padding: 20px;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 25px 50px -20px #00000080;
+    }
+    .como_hacemos_servicio {
+        background-color: #f0f8ff;
+        padding: 20px;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.5);
+    }
+    .como_hacemos_sin_horarios {
+        background-color: #f0f8ff;
+        padding: 20px;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.5);
+    }
+}
+@media (max-width: 425px) {
+    .como_hacemos_titulo {
+        font-size: 34px;
+        padding-bottom: 60px;
+    }
+    .bienvenidos_titulo{
+        font-size: 35px;
+    }
+    .footer_empresas img {
+        margin-left: 50%;
+        width: 50px;
+        height: 15px;
+    }
+    .derechos_reservados {
+        width: 100%;
+        text-align: center;
+        font-size: 10px;    
+        background-color: #12131fb5;
+        color: white;
+    }
+    .como_hacemos_separar {
+        display: flex;
+    }
+    
+}
+@media (max-width: 375px) {
+    .footer_contacto h4 {
+        margin: 8px;
+        font-size: 10px;
+    }
+    .footer_contacto ul {
+        margin-left: 10px;
+        font-size: 7px;
+    }
+    .footer_contacto h5 {
+        font-size: 9px;
+        font-style: italic;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .footer_empresas h4 {
+        margin: 8px;
+        font-size: 10px;  
+    }
+    .footer_redes {
+        display: flex;
+    }
+    .footer_redes h4 {
+        margin: 5px;
+        font-size: 10px;
+    }
+}
+@media (max-width: 1024px) {
+    .quienes_somos_contenedor_secundario {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        row-gap: 60px;
+        padding-top: 80px;
+        padding-bottom: 120px;
+    }
+    .como_hacemos_contenedor {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        row-gap: 60px;
+        padding-top: 80px;
+        padding-bottom: 120px;
+    }
+}
+@media (max-width: 768px) {
+    .quienes_somos_contenedor_secundario {
+        display: grid;
+        justify-items: center;
+        row-gap: 60px;
+        padding-top: 80px;
+        padding-bottom: 120px;
+    }
+    .quienes_somos_prof_clien {
+        background-color: #f0f8ff;
+        padding: 20px;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.5);
+    }
+    .quienes_somos_op_soft {
+        background-color: #f0f8ff;
+        padding: 20px;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.5);
+    }
+    .quienes_somos_tools_software {
+        background-color: #f0f8ff;
+        padding: 20px;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 25px 50px -20px #00000080;
+    }
+    .quienes_somos_acceso_remoto {
+        background-color: #f0f8ff;
+        padding: 20px;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 25px 50px -20px #00000080;
+    }
+}

@@ -1,0 +1,192 @@
+.bienvenidos_contenedor {
+    background-image: linear-gradient(45deg, #774a1db3, #af69244d);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.bienvenidos_titulo {
+    text-align: center;
+    font-size: 50px;
+    padding: 60px;
+    margin-top: -10px;
+}
+.bienvenidos_descripcion {
+    background-color: #ebeff2cc;
+    text-align: center;
+    font-size: 30px;
+    padding: 40px 40px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+.como_hacemos {
+    background-color: #ebeff2cc;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 2px;
+    border-spacing: 10px;
+}
+.como_hacemos p {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    font-size: 30px;
+}
+.como_hacemos_contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 60px;
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+.como_hacemos_titulo {
+    background-image: linear-gradient(45deg, #774a1db3, #af69244d);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-top: 40px;
+    font-size: 50px;
+    padding-bottom: 60px;
+}
+.como_hacemos_explicacion {
+    font-size: 20px;
+}
+.como_hacemos_aplicacion {
+    background-image: linear-gradient(45deg, #774a1db3, #af69244d);
+    padding: 20px;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.5);
+}
+.como_hacemos_aplicacion img {
+    width: 100%;
+    border-radius: 10px;
+}
+.como_hacemos_aplicacion:hover {
+    transform: rotateZ(3deg);
+}
+.como_hacemos_explicacion {
+    background-image: linear-gradient(45deg, #774a1db3, #af69244d);
+    padding: 20px;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.5);
+}
+.como_hacemos_explicacion img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.como_hacemos_explicacion:hover {
+    transform: rotateZ(3deg);
+}
+.como_hacemos_servicio {
+    background-image: linear-gradient(45deg, #774a1db3, #af69244d);
+    padding: 20px;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.5);
+}
+.como_hacemos_servicio img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.como_hacemos_servicio:hover {
+    transform: rotateZ(3deg);
+}
+.como_hacemos_sin_horarios {
+    background-image: linear-gradient(45deg, #774a1db3, #af69244d);
+    padding: 20px;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -20px rgba(0, 0, 0, 0.5);
+}
+.como_hacemos_sin_horarios img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.como_hacemos_sin_horarios:hover {
+    transform: rotateZ(3deg);
+}
+.contactanos {
+    text-align: center;
+    margin-top: -11px;
+}
+.contactanos_contenedor {
+    background-image: linear-gradient(45deg, #774a1db3, #af69244d);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.contactanos_titulo {
+    padding: 30px;
+    font-size: 25px;
+    margin-bottom: 80px;
+}
+.table_principal {
+    background-image: linear-gradient(45deg, #774a1db3, #af69244d);
+    padding-top: 25px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.table_principal_linea {
+    border: none;
+}
+.table_principal_subtitulo {
+    padding-left: 5px;
+    font-size: 20px;
+}
+#text_align_start {
+    text-align: start;
+    padding: 10px;
+    margin: auto;
+    color: rgb(13, 6, 6);
+}
+.controls {
+    width: 50%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 1px solid black;
+}
+.controls_area {
+    width: 70%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 18px;
+    border: 1px solid black;
+}
+.controls_chekbox {
+    font-size: 20px;
+}
+.table_principal_linea_noticias {
+    padding: 10px 10px;
+}
+.table_principal_linea_noticias input {
+    margin-left: 10px;
+}
+.terminos_condiciones {
+    font-size: 20px;
+}
+.table_principal_linea_terminos {
+    padding: 10px 10px;
+}
+.table_principal_linea_terminos input {
+    margin-left: 10px;
+}
+.table_principal_pais {
+    font-size: 20px;
+    padding-left: 10px;
+}
+.table_principal_boton {
+    width: 50%;
+}
+.table_principal_boton button {
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(177, 134, 81, 0.568);
+    font-size: 20px;  
+}
+.table_principal_boton button a:hover {
+    background-color: rgba(25, 18, 15, 0.8);
+}
