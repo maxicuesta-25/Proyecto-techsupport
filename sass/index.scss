@@ -16,3 +16,10 @@
     font-family: arial;
     font-weight: bold;
 }
+@mixin titulos_h2 {
+    color: #3d3d3d;
+    font-size: 50px;
+}
+.como_hacemos_titulo {
+    @include titulos_h2;
+}

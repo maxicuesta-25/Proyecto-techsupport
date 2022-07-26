@@ -59,9 +59,15 @@
     border-bottom-right-radius: 40px;
 }
 .quienes_somos_titulo {
+    color: #3d3d3d;
     text-align: center;
     font-size: 50px;
-    padding: 60px;
+    padding: 50px;
+    transition: all .4s;
+}
+.quienes_somos_titulo:hover {
+    opacity: 0.6;
+    padding: 80px;
 }
 .quienes_somos_contenedor_secundario {
     display: grid;

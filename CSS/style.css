@@ -120,10 +120,16 @@ a {
   border-bottom-right-radius: 40px; }
 
 .bienvenidos_titulo {
+  color: #3d3d3d;
   text-align: center;
   font-size: 50px;
   padding: 60px;
-  margin-top: -10px; }
+  margin-top: -10px;
+  transition: all 0.4s; }
+
+.bienvenidos_titulo:hover {
+  opacity: 0.6;
+  padding: 80px; }
 
 .bienvenidos_descripcion {
   background-color: #ebeff2cc;
@@ -153,13 +159,20 @@ a {
   padding-top: 80px;
   padding-bottom: 120px; }
 
-.como_hacemos_titulo {
+.como_hacemos_contenedor_titulo {
   background-image: linear-gradient(45deg, #774a1db3, #af69244d);
   border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
-  padding-top: 40px;
-  font-size: 50px;
-  padding-bottom: 60px; }
+  border-bottom-right-radius: 40px; }
+
+.como_hacemos_titulo {
+  text-align: center;
+  padding: 60px;
+  margin-top: -10px;
+  transition: all 0.4s; }
+
+.como_hacemos_titulo:hover {
+  opacity: 0.6;
+  padding: 80px; }
 
 .como_hacemos_explicacion {
   font-size: 20px; }
@@ -234,9 +247,15 @@ a {
   border-bottom-right-radius: 40px; }
 
 .contactanos_titulo {
+  color: #3d3d3d;
   padding: 30px;
   font-size: 25px;
-  margin-bottom: 80px; }
+  margin-bottom: 80px;
+  transition: all 0.4s; }
+
+.contactanos_titulo:hover {
+  opacity: 0.6;
+  padding: 50px; }
 
 .table_principal {
   background-image: linear-gradient(45deg, #774a1db3, #af69244d);
@@ -436,9 +455,15 @@ a {
   border-bottom-right-radius: 40px; }
 
 .quienes_somos_titulo {
+  color: #3d3d3d;
   text-align: center;
   font-size: 50px;
-  padding: 60px; }
+  padding: 50px;
+  transition: all .4s; }
+
+.quienes_somos_titulo:hover {
+  opacity: 0.6;
+  padding: 80px; }
 
 .quienes_somos_contenedor_secundario {
   display: grid;
@@ -693,3 +718,7 @@ a {
   color: #321a00;
   font-family: arial;
   font-weight: bold; }
+
+.como_hacemos_titulo {
+  color: #3d3d3d;
+  font-size: 50px; }
