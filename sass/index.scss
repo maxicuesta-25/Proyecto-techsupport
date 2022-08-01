@@ -5,6 +5,7 @@
 @import 'mainPageQuienesSomos';
 @import 'mediaqueries';
 @import 'variables';
+@import 'mainPageTecnicos';
 
 .botones-navbar {
     text-decoration: none;
@@ -20,6 +21,6 @@
     color: #3d3d3d;
     font-size: 50px;
 }
-.como_hacemos_titulo {
+.como_hacemos_titu {
     @include titulos_h2;
 }

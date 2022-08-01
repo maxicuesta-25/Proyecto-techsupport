@@ -5,17 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/style.css">
     <title>TechSupports Tecnicos</title>
 </head>
 
 <body>
-    <header>
-        <h1>Ofreciendo el mejor ServiDesk</h1>
-        <section>
-            <a href="../index.html">
-                <img src="/imagenes/techsupports_medio.png" alt="logo TechSupports">
+    <header class="header">
+        <div>
+            <a href="index.html">
+                <img src="/imagenes/techsupports.png" alt="Logo techsupport" class="logo_techsupports" >     
             </a>
-            <nav>
+        </div>
+        <div class="fixed-background"> 
+            <nav class="fixed-background-navegacion"> 
                 <ul>
                     <li>
                         <a href="../index.html"> Inicio</a>
@@ -24,61 +27,60 @@
                         <a href="./quienes_somos.html"> ¿Quiénes somos?</a>
                     </li>
                     <li>
-                        <a href="./clientes.html">Clientes</a>
-                    </li>
-                    <li>
                         <a href="./tecnicos.html"> Técnicos</a>
-                    </li>
-                    <li>
-                        <a href="./preguntas_frecuentes.html"> Preguntas frecuentes</a>
                     </li>
                 </ul>
             </nav>
-
-        </section>
-    </header>
-    <section>
-        <div>
-            <img src="/imagenes/techsupports_medio.png" alt="Logo techsupport">
         </div>
-        <p>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="44" height="44"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <circle cx="12" cy="11" r="3" />
-                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
-            </svg>
-        </p>
-
-        <p>Montevideo, Uruguay</p>
-
-    </section>
+    </header>
+    <div class="image_helpdesk"></div>
+        <div class="tecnicos_scroll">
+            <a href="#tecnicos">
+                <span></span>
+                Inscribete!
+            </a>
+        </div>
     <main>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, rem quasi repellendus, excepturi dolore tempore
-            et labore illum quam expedita ea deleniti distinctio iure neque nemo possimus non dolores repellat?
-        </p>
-        <form>
-            <h3>Trabaja con nosotros</h3>
-            <fieldset>
-                <legend>Si eres técnico informático y quieres unirte a esta comunidad, llena con tus datos el siguiente formulario::</legend>
-                <label for="nombre_">Nombre</label>
-                <input type="text" placeholder="Tu nombre.." id="nombre_">
-                <br />
-                <label for="apellido_">Apellido</label>
-                <input type="text" placeholder="Tu apellido.." id="apeliido_">
-                <br />
-                <label for="e_mail">E-mail</label>
-                <input type="email" placeholder="Tu email.." id="e_mail">
-                <br />
-                <label for="celular_">Teléofno</label>
-                <input type="tel" placeholder="Tu celular.." id="celular_">
-                <br />
-
-                <input type="submit" value="Enviar">
-            </fieldset>
-        </form>    
+        <section id="tecnicos">
+            <div class="bienvenidos_tecnicos_contenedor">
+                <h2 class="bienvenidos_tecnicos">
+                    ¡Bienvenidos Tecnicos!
+                </h2>
+            </div>
+            <div class="tecnicos_contenedor_descripcion">
+                <p class="tecnicos_descripcion">
+                    Todos los tecnicos it sean bienvenidos a esta gran comunidad de ayuda mutua y gratuita entre los tecnicos puediendo
+                    aplicar muchos conocimientos y asi ayudar. Adquiriendo experiencia formal. Los clientes les presentaran desafios diarios
+                    que pondran a prueba sus conocimientos.
+                </p>
+            </div>
+            <form class="table_tecnicos">
+                <h3>Trabaja con nosotros</h3>
+                <fieldset>
+                    <legend class="table_tecnicos_subtitulos">Si eres técnico informático y quieres unirte a esta comunidad, llena con tus datos el siguiente formulario:</legend>
+                    <div class="text_tecnicos_start">
+                        <label for="nombre_"></label>
+                    <input class="control_table" type="text" placeholder="Tu nombre.." id="nombre_">
+                    <br />
+                    <label for="apellido_"></label>
+                    <input class="control_table" type="text" placeholder="Tu apellido.." id="apeliido_">
+                    <br />
+                    <label for="e_mail"></label>
+                    <input class="control_table" type="email" placeholder="Tu email.." id="e_mail">
+                    <br />
+                    <label for="celular_"></label>
+                    <input class="control_table" type="tel" placeholder="Tu celular.." id="celular_">
+                    <br />
+                    <textarea class="controls_area" name="consulta" cols="30" rows="10" placeholder="Cuentanos sobre ti y tus cualidades.."></textarea>
+                    <br>
+                    <label  class="tecnicos_cv" for="CV">Dejanos tu CV:</label>
+                    <input class="tecnicos_selec_file" type="submit" value="selecionar archivo">
+                    <br>
+                    <input class="tecnicos_boton_enviar" type="submit" value="Enviar">
+                    </div>                    
+                </fieldset>
+            </form>    
+        </section>
     </main>
     <footer class="footer">
         <div class="footer_contacto">
@@ -111,13 +113,13 @@
             <h4>Empresas que confian en TechSupports:</h4>
             <ul>
                 <li>
-                    <img src="/imagenes/microsoft.png" alt="microsoft">
+                    <img src="../imagenes/microsoft.png" alt="microsoft">
                 </li>
                 <li>
-                    <img src="/imagenes/oracle.png" alt="oracle">
+                    <img src="../imagenes/oracle.png" alt="oracle">
                 </li>
                 <li>
-                    <img src="/imagenes/google.png" alt="google">
+                    <img src="../imagenes/google.png" alt="google">
                 </li>
             </ul>
         </div>
